@@ -10,3 +10,4 @@ pinned: false
 ---
 
 An example chatbot using [Gradio](https://gradio.app), [`huggingface_hub`](https://huggingface.co/docs/huggingface_hub/v0.22.2/en/index), and the [Hugging Face Inference API](https://huggingface.co/docs/api-inference/index).
+The code sets up an interactive chat application using Gradio and HuggingFace's Inference API to discuss the need for emerging technologies. The MyApp class processes a PDF on emerging technologies, builds a searchable vector database, and retrieves relevant document excerpts to enhance responses. Users ask questions, and the app provides contextually relevant answers based on the PDF content and user input.
